@@ -1,8 +1,9 @@
 /* Basic styling for the to-do list app */
 
-body {
+main {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    min-height: 80vh;
 }
 
 header {

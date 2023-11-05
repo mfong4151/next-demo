@@ -18,14 +18,14 @@ if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma
 
 
 
-export const createTodo = async (name) => {
+export const createTodo = async (data) => {
   const newTodo = await prisma.todo.create({
-    data: {
-      name,
-    },
+   data 
   });
   return newTodo;
 };
+
+
 
 export const getAllTodos = async () => {
   const todos = await prisma.todo.findMany();

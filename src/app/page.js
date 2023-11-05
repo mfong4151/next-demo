@@ -1,28 +1,18 @@
 import React from 'react'
-
+import Layout from '@/components/Layout';
 const Home = () => {
 
   return (
-    <>
-      Hello benchod
-      hello bhencheD 
-      <p>Nestor PP smol</p>
-      {true ? 'w0at' : 'fuq'}
+    <Layout>
 
-    </>
+      <h1>Nestor PP Smol</h1>
+      <p>How smol?</p>
+      <p>REALLY FUCKING SMOL!</p>
+    </Layout>
+    
   )
 }
 
 export default Home;
 
 
-const TodoListItem = ({ item }) => {
-
-  return (
-    <li className='task-item'>
-      {/* <input type='text' value={}/> 
-      <input type='checkbox' value={ } /> */}
-    </li>
-
-  )
-}
